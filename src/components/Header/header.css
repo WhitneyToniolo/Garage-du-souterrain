@@ -1,0 +1,76 @@
+.header {
+  background-image: url('../Header/Carblack.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: none;
+    /* La hauteur de l'image de l'en-tête */
+    height: 300px;
+    /* Le reste de la hauteur de l'écran */
+    /* min-height: calc(115vh - 300px); */
+    /* Permet d'empêcher le contenu de déborder de la hauteur de l'écran */
+}
+
+.header__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  clip-path: inset(0 0 30% 0);
+}
+
+
+
+.header__navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 100%;
+  font-size: 1.4em;
+}
+
+
+.header__navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navigation li {
+  margin: 0 30px;
+}
+
+
+.header__navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+.header__title {
+  position: absolute;
+  top: 3em;
+  right: 0;
+  transform: translateY(-20%);
+  text-align: right;
+  color: #fff;
+  font-size: 4rem;
+  margin-right: 1em;
+}
+.header__titlelittle {
+  position: absolute;
+  top: 13em;
+  left: 40em;
+  text-align: right;
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+

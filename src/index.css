@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Styles pour les écrans de taille supérieure à 768px (Desktop) */
+
+@media screen and (min-width: 768px) {
+  .header__navigation li {
+    margin: 0 30px;
+  }
+  .header__titlelittle {
+    left: 40em;
+  }
+}
+
+/* Styles pour les écrans de taille inférieure à 768px (Mobile) */
+
+@media screen and (max-width: 767px) {
+  .header__navigation li {
+    margin: 0 10px;
+  }
+  .header__titlelittle {
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
