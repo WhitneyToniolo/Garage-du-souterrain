@@ -4,11 +4,12 @@
   margin-bottom: 1.2em;
 }
 
-.container__box {
+#container__box {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 32em;
+  margin-bottom: 8em;
 }
 
 .container {
@@ -86,17 +87,17 @@
   transform: rotate(0deg);
 }
 
-.box span:nth-child(2) {
+/* .box span:nth-child(2) {
   transform: rotate(0deg);
-}
+} */
 
 .box span:nth-child(3) {
   transform: rotate(180deg);
 }
 
-.box span:nth-child(4) {
+/* .box span:nth-child(4) {
   transform: rotate(180deg);
-}
+} */
 
 .box span:before {
   content: '';

@@ -15,7 +15,7 @@ function Header() {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+          <a href="#container__box">Nos services</a>
           </li>
           <li>
             <Link to="/apropos">A propos</Link>
