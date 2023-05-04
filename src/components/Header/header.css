@@ -1,13 +1,12 @@
 .header {
-  background-image: url('../Header/Carblack.jpg');
+  background-image: url('../Header/Entretien2.png');
   background-size: cover;
   background-position: center;
   position: relative;
   background-image: none;
     /* La hauteur de l'image de l'en-tête */
-    height: 300px;
     /* Le reste de la hauteur de l'écran */
-    /* min-height: calc(115vh - 300px); */
+    min-height: calc(115vh - 300px);
     /* Permet d'empêcher le contenu de déborder de la hauteur de l'écran */
 }
 
@@ -16,8 +15,9 @@
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
-  clip-path: inset(0 0 30% 0);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
+
 
 
 
@@ -34,6 +34,7 @@
   height: 50px;
   width: 100%;
   font-size: 1.4em;
+  
 }
 
 
@@ -59,7 +60,7 @@
   right: 0;
   transform: translateY(-20%);
   text-align: right;
-  color: #fff;
+  color: #111010;
   font-size: 4rem;
   margin-right: 1em;
 }
@@ -68,7 +69,7 @@
   top: 13em;
   left: 40em;
   text-align: right;
-  color: #fff;
+  color: #161515;
   font-size: 1.5rem;
   font-style: italic;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Header/Carblack.jpg"
+import logo from "../Header/Entretien2.png"
 import '../Header/header.css'
 
 
@@ -26,7 +26,7 @@ function Header() {
         </ul>
       </nav>
       <h1 className="header__title">Bienvenue au Garage du Souterrain</h1>
-      <h2 className="header__titlelittle">Confiez votre véhicule à notre garage et profitez d'un service de qualité <br/> à la hauteur de vos attentes</h2>
+      <h2 className="header__titlelittle">Confiez votre véhicule à notre garage et profitez d'un service de qualité</h2>
     </header>
   );
 }
