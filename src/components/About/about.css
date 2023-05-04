@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+}
+.left-box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em;
+    text-align: center;
+}
