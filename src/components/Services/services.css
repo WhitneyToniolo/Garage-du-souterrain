@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
-  background-color: white; /* spécifiez la couleur de fond */
+  background-color: white; /* spécifier la couleur de fond */
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
@@ -11,12 +11,12 @@
 .services::before {
   content: "";
   position: absolute;
-  bottom: -10px; /* ajustez la position de l'ombre du bas */
+  bottom: -10px; /* ajuster la position de l'ombre du bas */
   left: 0;
   width: 100%;
-  height: 50px; /* ajustez la hauteur de l'ombre */
+  height: 50px; /* ajuster la hauteur de l'ombre */
   background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
-  filter: blur(10px); /* ajustez le flou de l'ombre */
+  filter: blur(10px); /* ajuster le flou de l'ombre */
 }
 
 
@@ -25,7 +25,7 @@
 } */
 
 .services__text{
-  font-size: 1em;
+  font-size: 1.5em;
 }
 ul {
   list-style-type: none;

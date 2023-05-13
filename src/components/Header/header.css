@@ -66,12 +66,20 @@
 }
 .header__titlelittle {
   position: absolute;
-  top: 13em;
-  left: 40em;
+  top: 9em;
+  left: 27em;
+  text-align: right;
+  color: #161515;
+  font-size: 2rem;
+  font-style: italic;
+}
+.header__titleNumber{
+  position: absolute;
+  top: 14em;
+  left: 37em;
   text-align: right;
   color: #161515;
   font-size: 1.5rem;
   font-style: italic;
 }
-
 

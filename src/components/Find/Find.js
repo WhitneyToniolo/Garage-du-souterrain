@@ -1,6 +1,6 @@
 import React from "react";
 import "../Find/find.css";
-import adress from "../Find/AdresseGarage.png";
+import adress from "../Find/AdresseGaragas.jpg";
 
 function Find() {
     return (
