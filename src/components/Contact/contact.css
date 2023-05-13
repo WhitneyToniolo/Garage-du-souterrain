@@ -1,10 +1,27 @@
+.form__title{ 
+  text-align: center; 
+}
+
 .container__form {
     max-width: 600px;
     margin: 0 auto;
+    padding-top: 4em;
+    padding-bottom: 8em;
   }
   
   .form-group {
     margin-bottom: 1.5rem;
+  }
+  .form-group__first{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .form-control{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
   }
   
   .form-row {
@@ -21,6 +38,10 @@
   textarea {
     resize: none;
     width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
   }
   
   
@@ -57,4 +78,8 @@
   .button-89:active {
     background: var(--color);
     color: #fff;
+  }
+  .button__style{
+    display: flex;
+    justify-content: center;
   }

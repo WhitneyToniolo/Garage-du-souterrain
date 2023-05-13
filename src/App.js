@@ -6,6 +6,7 @@ import Services from "./components/Services/Services.js";
 import About from "./components/About/About";
 import Find from "./components/Find/Find";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Find />
         <Contact />
+        <Footer />
       </div>
     </BrowserRouter>
   );

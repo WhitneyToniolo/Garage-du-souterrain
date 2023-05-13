@@ -17,7 +17,7 @@ function Services() {
       </div>
       <div className="services__text">
         <p>
-          <ul>
+          <ul id="list__services">
             <li>⇝ Entretien et réparation de moteurs</li>
             <li>⇝ Changement d'huile et de filtres</li>
             <li>⇝ Réparation et remplacement de pneus</li>
@@ -28,6 +28,9 @@ function Services() {
           </ul>
 
         </p>
+      </div>
+      <div className="separation">
+
       </div>
     </div>
   );

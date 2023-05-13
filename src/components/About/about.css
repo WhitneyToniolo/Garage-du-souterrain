@@ -1,5 +1,8 @@
 .about-container{
     display: flex;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    
 }
 .left-box{
     align-items: center;

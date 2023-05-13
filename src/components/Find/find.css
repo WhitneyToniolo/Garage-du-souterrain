@@ -6,7 +6,8 @@
     background-color: white; /* spécifier la couleur de fond */
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
-    padding-bottom: 8em;
+    padding-bottom: 15em;
+    
 }
 .find::before{
     content: "";

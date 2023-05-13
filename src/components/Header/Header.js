@@ -1,27 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Header/Entretien2.png"
-import '../Header/header.css'
-
+import { Link as ScrollLink } from "react-scroll";
+import logo from "../Header/Entretien2.png";
+import "../Header/header.css";
 
 function Header() {
   return (
     <header className="header">
-        <img className="header__image" src={logo} alt="Header" />
+      <img className="header__image" src={logo} alt="Header" />
       <nav className="header__navigation">
-
         <ul>
           <li>
-            <Link to="/">Accueil</Link>
+          <ScrollLink to="header__image" smooth={true} duration={500}>Accueil</ScrollLink>
           </li>
           <li>
-          <a href="#services">Nos services</a>
+            <ScrollLink to="services" smooth={true} duration={500}>
+              Nos services
+            </ScrollLink>
           </li>
           <li>
-            <Link to="/apropos">A propos</Link>
+            <ScrollLink to="about-container" smooth={true} duration={500}>A propos</ScrollLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+          <ScrollLink to="find" smooth={true} duration={500}>Nous trouver</ScrollLink>
+          </li>
+          <li>
+          <ScrollLink to="container__form" smooth={true} duration={500}>Contact</ScrollLink>
           </li>
         </ul>
       </nav>
