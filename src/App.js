@@ -7,11 +7,12 @@ import About from "./components/About/About";
 import Find from "./components/Find/Find";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import background from "./3253510.jpg"
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
         <Header />
         <Services />
         <About />

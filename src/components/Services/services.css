@@ -4,7 +4,7 @@
   justify-content: space-around;
   position: relative;
   flex-wrap: wrap;
-  bottom: 7em;
+  bottom: 5em;
   flex-direction: column;
 }
 .service__center{
@@ -14,7 +14,7 @@
 }
 .separation {
   background: rgb(247,249,250);
-background: linear-gradient(90deg, rgba(247,249,250,0.3449754901960784) 3%, rgba(14,14,14,0.6643032212885154) 49%, rgba(255,255,255,0.7539390756302521) 97%);
+  background: linear-gradient(90deg, rgba(247,249,250,0.3449754901960784) 3%, rgba(14,14,14,0.6643032212885154) 49%, rgba(255,255,255,0.7539390756302521) 97%);
   width: 55%;
   margin: auto;
   margin-top: 5em;
@@ -23,12 +23,12 @@ background: linear-gradient(90deg, rgba(247,249,250,0.3449754901960784) 3%, rgba
 }
 
 .services__image-container{
-  margin-right: 25em;
+  margin-right: 22em;
 }
 
 .services__text{
-  font-size: 1.2em;
-  margin: 5px;
+  font-size: 1.5em;
+  margin: 3px;
 }
 ul {
   list-style-type: none;

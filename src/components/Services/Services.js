@@ -1,7 +1,7 @@
 import React from "react";
 import cle from "../Services/serviceauto.jpg"; 
 import "../Services/services.css"; 
-import separage from "../Services/separationbisbis.jpg"
+
 
 
 
@@ -20,13 +20,13 @@ function Services() {
       <div className="services__text">
         <p>
           <ul id="list__services">
-            <li>⇝ Entretien et réparation de moteurs</li>
-            <li>⇝ Changement d'huile et de filtres</li>
-            <li>⇝ Réparation et remplacement de pneus</li>
-            <li>⇝ Alignement de roues</li>
-            <li>⇝ Inspection de freins et remplacement de plaquettes</li>
-            <li>⇝ Réparation de systèmes de suspension</li>
-            <li>⇝  Réparation de la climatisation et du système de chauffage</li>
+            <li>▷ Entretien et réparation de moteurs</li>
+            <li>▷ Changement d'huile et de filtres</li>
+            <li>▷ Réparation et remplacement de pneus</li>
+            <li>▷ Alignement de roues</li>
+            <li>▷ Inspection de freins et remplacement de plaquettes</li>
+            <li>▷ Réparation de systèmes de suspension</li>
+            <li>▷ Réparation de la climatisation et du système de chauffage</li>
           </ul>
 
         </p>
