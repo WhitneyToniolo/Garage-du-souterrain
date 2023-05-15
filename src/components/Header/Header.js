@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import logo from "../Header/Entretien2.png";
+import logo from "../Header/mecanono.jpg";
 import "../Header/header.css";
+import G from "../Header/Gcali.png"
 
 function Header() {
   return (
     <header className="header">
-      <img className="header__image" src={logo} alt="Header" />
-      <nav className="header__navigation">
-        <ul>
-          <li>
-          <ScrollLink to="header__image" smooth={true} duration={500}>Accueil</ScrollLink>
-          </li>
+
+      <nav className="header__navigation"> 
+        <div className="title__site"><img className="header__imageLetter" src={G} alt="Header" />arage du Souterrain <br/> 01 64 48 29 35</div>  
+    
+        <ul className="list__site">
           <li>
             <ScrollLink to="services" smooth={true} duration={500}>
               Nos services
@@ -29,9 +29,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <h1 className="header__title">Bienvenue au Garage du Souterrain</h1>
-      <h2 className="header__titlelittle">34 Rue de l'Eglise 91420 MORANGIS</h2>
-      <h3 className="header__titleNumber">01 64 48 29 35</h3>
+      <img className="header__image" src={logo} alt="Header" />
     </header>
   );
 }

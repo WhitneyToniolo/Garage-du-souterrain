@@ -17,7 +17,7 @@ return (
                         </div>
                         </div>
                     <div className="form-group">
-                <textarea placeholder="Une question ? Un ren" className="form-control" name="message" rows="10" required></textarea>
+                <textarea placeholder="Une question ? " className="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div className="button__style">
                 <button type="submit" className="button-89" role="button">Submit Form</button>

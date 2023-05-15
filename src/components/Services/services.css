@@ -4,12 +4,14 @@
   justify-content: space-around;
   position: relative;
   flex-wrap: wrap;
+  bottom: 25em;
   
 }
 .separation {
-  border-bottom: 1px dotted rgb(105, 100, 100);
+  border-bottom: 10px double rgb(105, 100, 100);
   width: 50%;
   margin: auto;
+  opacity: 50%;
 }
 
 
