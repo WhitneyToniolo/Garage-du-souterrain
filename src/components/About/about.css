@@ -1,7 +1,7 @@
 .about-container{
     display: flex;
     position: relative;
-    bottom: 25em;
+    bottom: 10em;
     
 }
 .left-box{
@@ -12,3 +12,19 @@
     margin: 3em;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+    .about-container {
+      bottom: initial;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .left-box {
+      margin: 1em;
+      text-align: left;
+    }
+    .who_img{
+      display: none;
+    }
+  }
+  

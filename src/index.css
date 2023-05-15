@@ -10,20 +10,20 @@ code {
     monospace;
 }
 
-/* Styles pour les écrans de taille supérieure à 768px (Desktop)
+/* Styles pour les écrans de taille supérieure à 768px (Desktop) */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .header__navigation li {
     margin: 0 30px;
   }
   .header__titlelittle {
     left: 40em;
   }
-}
+} */
 
 /* Styles pour les écrans de taille inférieure à 768px (Mobile) */
 
-/* @media screen and (max-width: 767px) {
+ /* @media screen and (max-width: 767px) {
   .header__navigation li {
     margin: 0 10px;
   }

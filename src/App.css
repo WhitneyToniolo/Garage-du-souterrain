@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 } */
+@media screen and (max-width: 768px){
+  .app{
+      width: 90vh;
+      height: auto;
+  }
+
+}

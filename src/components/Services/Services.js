@@ -1,6 +1,7 @@
 import React from "react";
-import cle from "../Services/2.jpg"; 
+import cle from "../Services/serviceauto.jpg"; 
 import "../Services/services.css"; 
+import separage from "../Services/separationbisbis.jpg"
 
 
 
@@ -8,6 +9,7 @@ import "../Services/services.css";
 function Services() {
   return (
     <div className="services">
+      <div className="service__center">
       <div className="services__image-container">
         <img
           src={cle}
@@ -28,11 +30,17 @@ function Services() {
           </ul>
 
         </p>
+        </div>
       </div>
-      <div className="separation">
-
-      </div>
+      <div className="separation"></div>
+      {/* <img
+          src={separage}
+          alt="separate"
+          className="services__separate"
+        />     */}
     </div>
+    
+
   );
 }
 

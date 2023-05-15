@@ -11,4 +11,15 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+  @media screen and (max-width: 768px) {
+    .footer__bottom {
+      height: auto;
+      padding: 10px;
+      font-size: 1em;
+      /* flex-direction: row; */
+      justify-content: space-between;
+      /* align-items: center; */
+      width: auto;
+    }
+  }
   
