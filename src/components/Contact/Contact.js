@@ -20,7 +20,7 @@ return (
                 <textarea placeholder="Une question ? " className="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div className="button__style">
-                <button type="submit" className="button-89" role="button">Submit Form</button>
+                <button type="submit" className="button-89">Submit Form</button>
                 </div>
             </form>
     </div>

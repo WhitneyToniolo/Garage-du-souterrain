@@ -27,6 +27,7 @@ function About() {
       <img
           src={Who}
           className="who_img"
+          alt="qui"
         />
     </div>
   );
