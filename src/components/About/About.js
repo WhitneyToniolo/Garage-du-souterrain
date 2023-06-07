@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Who from "../About/who.jpg";
+
 
 function About() {
   return (
@@ -24,11 +24,7 @@ function About() {
         vestibulum, sollicitudin libero vitae, dictum ante.
       </p>
       </div>
-      <img
-          src={Who}
-          className="who_img"
-          alt="qui"
-        />
+
     </div>
   );
 }

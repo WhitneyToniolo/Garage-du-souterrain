@@ -16,6 +16,9 @@ function Header() {
             <ScrollLink to="services" smooth={true} duration={500}>
               Nos services
             </ScrollLink>
+          </li>          
+          <li>
+          <ScrollLink to="/" smooth={true} duration={500}>Nos pièces</ScrollLink>
           </li>
           <li>
             <ScrollLink to="about-container" smooth={true} duration={500}>A propos</ScrollLink>
@@ -26,6 +29,7 @@ function Header() {
           <li>
           <ScrollLink to="container__form" smooth={true} duration={500}>Contact</ScrollLink>
           </li>
+
         </ul>
       </nav>
       <img className="header__image" src={logo} alt="Header" />
